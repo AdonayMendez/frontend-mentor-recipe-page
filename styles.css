@@ -165,7 +165,7 @@ main{
 
 
 .recipe-instructions{
-  background-color: rgba(94, 128, 0, 0.685); 
+  /* background-color: rgba(94, 128, 0, 0.685);  */
   
   display: flex; 
   flex-direction: column;
@@ -180,6 +180,22 @@ main{
 
 .instructions-list{
   padding-left: 20px;
+
+
+  ol{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    
+    li::marker{
+      color: var(--brown800);
+      font-weight: 600;
+    }
+
+    p{
+      padding-left: 10px;
+    }
+  }
 }
 
 
