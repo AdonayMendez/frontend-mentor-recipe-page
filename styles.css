@@ -18,7 +18,11 @@
 }
 
 h2{
-  color: var(--rose800);
+  color: var(--brown800);
+  font-size: 1.5rem;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+
 }
 
 p{
@@ -60,6 +64,13 @@ main{
     width: 100%;
     object-fit: cover;
   }
+}
+
+
+.recipe-details{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 /*! Recipe Overview Section  */
@@ -122,8 +133,7 @@ main{
 
 
 .recipe-ingredients{
-  background-color: rgba(98, 40, 116, 0.658); 
-
+  /* background-color: rgba(98, 40, 116, 0.658);  */
   display: flex; 
   flex-direction: column;
   gap: 10px;
@@ -132,6 +142,23 @@ main{
 
 .ingredients-items{
   padding-left: 20px;
+
+
+  ul{
+    display: flex; 
+    flex-direction: column; 
+    gap: 8px;
+
+
+    li{
+      color: var(--brown800);
+
+
+      p{
+        padding-left: 10px;
+      }
+    }
+  }
 }
 
 /*! Recipe Instructions Section  */
