@@ -58,7 +58,7 @@ main{
 }
 
 .recipe-img{
-  background-color: rgba(0, 128, 0, 0.562); 
+  /* background-color: rgba(0, 128, 0, 0.562);  */
 
   img{
     width: 100%;
@@ -259,5 +259,19 @@ main{
 
   .recipe-img{
     height: 130px;
+  }
+}
+
+@media (400px < width <= 595px){
+    body{
+    padding: 0px;
+  }
+
+  main{
+    padding: 0; 
+  }
+
+  .recipe-details{
+    padding: 1rem 1.3rem 1.3rem 1.3rem;
   }
 }
