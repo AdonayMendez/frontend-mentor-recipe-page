@@ -206,7 +206,7 @@ main{
   
   display: flex; 
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 
 
   table{
@@ -215,14 +215,32 @@ main{
     border-collapse: collapse;
 
     th, td{
-      text-align: left;
-      border-bottom: 1px solid var(--stone600);
+      text-align: center;
+      padding: 10px;
+      border-bottom: 1px solid var(--stone150);
+
+
+      p{
+
+
+        span{
+          color: var(--brown800)
+        }
+      }
     }
 
     tr:last-child td{
       border-bottom: none; 
     }
   }
+}
+
+.nutrition-description{
+
+  p{
+    width: 90%;
+  }
+
 }
 
 
