@@ -25,7 +25,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Links
 
 - [Solution URL](https://github.com/AdonayMendez/frontend-mentor-recipe-page.git)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://adonaymendez.github.io/frontend-mentor-recipe-page/)
 
 ## My process
 
@@ -117,4 +117,4 @@ Used this tool to:
 - Review the efficiency of my code and correct any ambiguities
 
 ## Author
-- Frontend Mentor - [@AdonayMendez](https://www.frontendmentor.io/home)
+- Frontend Mentor - [@AdonayMendez](https://www.frontendmentor.io/profile/AdonayMendez)
