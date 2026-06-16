@@ -23,7 +23,7 @@ hr{
 }
 
 li::marker{
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 
 span{
@@ -48,7 +48,7 @@ h2{
 
 p{
   color: var(--stone600);
-  font-family: "Outfit";
+  font-family: "Outfit", serif;
   font-size: .80rem;
 }
 
